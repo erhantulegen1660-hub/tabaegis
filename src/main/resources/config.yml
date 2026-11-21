@@ -1,0 +1,16 @@
+# Как часто обновлять таб (20 тиков = 1 секунда)
+update-ticks: 20
+
+# Плейсхолдеры: <online> <ping> <version>
+header:
+  - ""
+  - "<gradient:#c77dff:#7b2cbf><bold>✦ AEGIS ✦</bold></gradient>"
+  - "<dark_purple>▪ <white>Онлайн: <light_purple><online></light_purple><dark_gray>/</dark_gray><white>1000</white> <dark_purple>▪"
+  - ""
+
+footer:
+  - ""
+  - "<white>Ваш пинг: <light_purple><ping> мс</light_purple>"
+  - "<white>IP: <gradient:#e0aaff:#9d4edd>aegis.gamepvp.ru</gradient>"
+  - "<white>Версия: <light_purple><version></light_purple>"
+  - ""

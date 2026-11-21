@@ -1,0 +1,12 @@
+name: AegisTab
+version: '${version}'
+main: dev.aegis.tab.AegisTab
+api-version: '1.21.11'
+commands:
+  aegistab:
+    description: Перезагрузить таб
+    usage: /aegistab reload
+    permission: aegistab.reload
+permissions:
+  aegistab.reload:
+    default: op
