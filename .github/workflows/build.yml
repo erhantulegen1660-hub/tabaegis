@@ -24,3 +24,9 @@ jobs:
 
       - name: Build JAR
         run: gradle clean build
+
+      - name: Upload JAR
+        uses: actions/upload-artifact@v4
+        with:
+          name: AegisTab-jar
+          path: build/libs/*.jar
